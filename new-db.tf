@@ -6,7 +6,7 @@ resource "aws_athena_database" "athena_database" {
     }
 }
 
-resource "aws_athena_database" "athena_database_two" { #noboost
+resource "aws_athena_database" "athena_database_two" {
     bucket = "some-bucket"
     name = "athena db two"
 }
